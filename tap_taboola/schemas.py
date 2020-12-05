@@ -1,4 +1,31 @@
 # pylint: disable=invalid-name
+account = {
+    'type': 'object',
+    'properties': {
+        'id': {
+            'type': 'number',
+        },
+        'name': {
+            'type': 'string',
+        },
+        'account_id': {
+            'type': 'string',
+        },
+        'partner_types': {
+            'type': 'string',
+        },
+        'type': {
+            'type': 'string',
+        },
+        'campaign_types': {
+            'type': 'string',
+        },
+        'currency': {
+            'type': 'string',
+        },
+    },
+}
+
 campaign = {
     'type': 'object',
     'properties': {
@@ -167,31 +194,4 @@ campaign_performance = {
             'description': 'ISO4217 currency code for columns of type money',
         }
     }
-}
-
-account = {
-    'type': 'object',
-    'properties': {
-        'id': {
-            'type': 'number',
-        },
-        'name': {
-            'type': 'string',
-        },
-        'account_id': {
-            'type': 'string',
-        },
-        'partner_types': {
-            'type': 'string',
-        },
-        'type': {
-            'type': 'string',
-        },
-        'campaign_types': {
-            'type': 'string',
-        },
-        'currency': {
-            'type': 'string',
-        },
-    },
 }
