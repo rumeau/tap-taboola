@@ -1,5 +1,5 @@
 # pylint: disable=invalid-name
-account = {
+accounts = {
     'type': 'object',
     'properties': {
         'id': {
