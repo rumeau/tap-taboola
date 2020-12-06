@@ -345,7 +345,7 @@ def do_sync(args):
         username=config.get('username'),
         password=config.get('password'))
 
-    singer.write_schema('account',
+    singer.write_schema('accounts',
                         schemas.account,
                         key_properties=['id'])
 
